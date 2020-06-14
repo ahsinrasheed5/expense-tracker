@@ -1,6 +1,5 @@
 import React,{useContext} from 'react'
 import ContentCreate from './ContentCreate';
-
 const  Child =()=> {
     let ContentValue  =  useContext(ContentCreate);
     console.log(ContentValue);

@@ -1,7 +1,6 @@
 import React,{useState} from 'react';
 import './App.css';
 import Parent from './Parent';
-import Child from './Child';
 import ContentCreate from './ContentCreate';
 const App =() => {
     let countState =  useState(1);
